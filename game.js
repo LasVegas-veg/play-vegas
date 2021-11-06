@@ -167,6 +167,6 @@ window.addEventListener('load', function () {
     });
 
     SPIN.set_draw((s) => {
-        s.draw_text(640/2-60, 5, '#8cff00', 'Игровой счет: '+score);
+        s.draw_text(640/2-60, 5, '#8cff00', 'Баланс: '+score);
     });
 });
